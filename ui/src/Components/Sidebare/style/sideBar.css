@@ -1,0 +1,31 @@
+.sideBarContainer{
+    margin-right: 10px;    
+}
+.hswPQH{
+    width: 113px !important;
+    min-width: 185px !important;
+}
+
+.hswPQH.toggled{
+    width: 80px !important;
+    min-width: 80px !important;
+}
+
+.cQiZws{
+    position: fixed !important;
+}
+
+.fZichJ.toggled{
+    display: flex;
+    justify-content: start !important;
+    /* height: 43px !important; */
+}
+.bPQHAq .head-div{
+    display: flex;
+    justify-content: start !important;
+    padding: 24px 38px !important;
+}
+
+.gEYqUT{
+    margin: 10px 15px !important;
+}

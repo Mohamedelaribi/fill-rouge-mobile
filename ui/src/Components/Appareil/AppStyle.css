@@ -1,0 +1,38 @@
+/* card */
+:root {
+    --blue: #16294D;
+    --green: #00DEA3;
+  }
+.AppCard{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 100%;
+}
+  .cardStats{
+    padding: 0.4rem 1rem;
+  }
+.cardStats .card-body{
+    text-align: center;
+}
+.cardStats .card-title{
+    color: var(--blue);
+}
+.cardStats .card-text{
+    color: var(--green);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cardRow {
+        grid-template-columns: auto  auto;
+
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .cardRow {
+        grid-template-columns: auto;
+
+    }
+  }

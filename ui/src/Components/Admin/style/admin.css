@@ -1,0 +1,54 @@
+.modelProfilContainer{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.permission li{
+    list-style-type: decimal-leading-zero;
+
+}
+li{
+    list-style-type: none;
+    line-height: 32px;
+}
+.data-user{
+    display: flex;
+}
+.usercards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:10px;
+}
+
+.card-body{
+    padding: var(--bs-card-spacer-y) 0.2rem;
+    margin-top: 15px;
+}
+
+.data{
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.userimage{
+    padding: 1px 3px 28px 18px;
+    height: 80%;
+    margin-top: 15px;
+
+}
+
+.headercard{
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: end;
+    height: 10%;
+}
+
+@media only screen and (max-width: 1250px) {
+
+
+}

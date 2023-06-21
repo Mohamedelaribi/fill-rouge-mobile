@@ -1,0 +1,89 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.App{
+  display: flex;
+}
+.buttomContaint{
+  background-color:#EFF3FD;
+  padding: 20px;
+  min-height: 90vh;
+}
+/* .topbar{
+  display: inline;
+  width:100%
+} */
+
+.containt{
+  width:100%;
+  flex: 4;
+}
+.navBar{
+  align-items: center;
+}
+
+
+.layout{
+  background-color: aliceblue;
+  width: 100%;
+}
+
+
+
+.icon-suffix:hover{
+  color:#00ff80 ;
+}
+.logo1{
+  width: 8rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.logo2{
+  width: 8rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+
+
+
+}
+.navbar-collapse{
+  display: flex ;
+  justify-content: flex-end;
+  margin-right: 2rem;
+
+}
+.navbar-toggler{
+  margin-left: 20rem;
+}
+.navbar{
+  display: flex ;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  width:85%;
+  margin-left: 15rem;
+
+}
+
+.sidebar{
+  height: 100vh;
+}
+.btn-outline-primary {
+margin-left: 15rem;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: none;
+  
+
+}
+.spanCard{
+  margin-left: 0.4rem;
+}
+
